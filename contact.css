@@ -1,12 +1,6 @@
 body {
   margin-left: 30px;
 }
-#floattop {
-  width: 100%;
-  float: inherit;
-  position: fixed;
-  top: 0;
-}
 #logo {
   height: 130px;
   padding: 20px;
@@ -39,13 +33,14 @@ ul li {
 #headshot {
   height: 250px;
   display: block;
-  margin: auto;
-  margin-top: 100px;
+  margin-top: 0;
   border-radius: 125px;
 }
-#info {
-  margin-top: 30px;
-  margin-bottom: 30px;
+ol li {
+  padding-top: 5px;
+}
+#location {
+  padding: 20px;
 }
 .footlogo {
   height: 70px;
